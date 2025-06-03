@@ -1,0 +1,85 @@
+body {
+    font-family: 'Trebuchet MS';
+    background-color: #f2f2f2;
+    color: #7eade2;
+}
+
+.dark-theme {
+    background-color: #080808;
+    color: #f2f2f2;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+li {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input {
+    padding: 7px;
+    border: 1px solid #7de0d3;
+    border-radius: 7px;
+}
+
+button {
+    padding: 11px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #44a837;
+}
+
+
+#participantes {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.dark-theme .card {
+    background-color: #1e1e1e;
+}
+
+.card-edi{
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
